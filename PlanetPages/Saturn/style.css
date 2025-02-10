@@ -1,0 +1,122 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image:url(../../PlanetImg/image.png);
+    background-size: 100%  100vh;
+    /* background-position: 100px 100px; */
+    /* background-repeat: no-repeat; */
+    /* background-color: black; */
+}
+
+
+
+
+#planetImg{
+    transition: all 3s ease-in-out;
+    rotate: 5deg;
+    position: relative;
+    width: 496px;
+    top: 744px;
+    left: 520px ;
+}
+#PlanetPoligon{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* #bKReels {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+#bK{
+    position: absolute;
+    width: 2400px;
+    height: 1300px;
+    left: -475px;
+    top: -288px;
+    transition: all 3s ease-in-out;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.texts{
+    width: 100%;
+    height: 100vh;
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    top: 0;
+}
+h1{
+    font-size: 89px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+    position: absolute;
+    letter-spacing: 3px;
+    margin-left: 1000px;
+    margin-top: 17px;
+    transition: all 2s ease-in-out;
+    opacity: 0;
+  }
+
+
+.texts > p {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin-top: 5px;
+    transition: all 1.1s ease-in-out;
+    opacity: 0;
+}
+.texts > p > span{
+    font-size: 17px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    left: -15px;
+    top: -10px;
+}
+
+
+
+.texts > p:nth-child(1){
+    width: 700px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.texts > p:nth-child(2){
+    width: 707px;
+    margin-left: 780px;
+    margin-top: 115px;
+}
+.texts > p:nth-child(3){
+    width: 727px;
+    margin-left: 23px;
+    margin-top: 219px;
+}
+.texts > p:nth-child(4){
+    width: 618px;
+    margin-left: 915px;
+    margin-top: 267px;
+}
+.texts > p:nth-child(5){
+    width: 493px;
+    margin-left: 47px;
+    margin-top: 444px;
+}
+
+

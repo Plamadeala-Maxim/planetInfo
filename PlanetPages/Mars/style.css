@@ -1,0 +1,123 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image:url(../../PlanetImg/image.png);
+    background-size: 100%  100vh;
+    /* background-position: 100px 100px; */
+    /* background-repeat: no-repeat; */
+    /* background-color: black; */
+}
+
+
+
+
+#planetImg{
+
+    position: relative;
+
+    /* transition: all 3s ease-in-out; */
+    width: 622px;
+    top: 45px;
+    left: 23px;
+}
+#PlanetPoligon{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* #bKReels {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+#bK{
+    position: absolute;
+    width: 2400px;
+    height: 1300px;
+    left: -475px;
+    top: -288px;
+    transition: all 3s ease-in-out;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.texts{
+    width: 100%;
+    height: 100vh;
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    top: 0;
+}
+h1{
+    font-size: 70px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+    position: absolute;
+    letter-spacing: 3px;
+    margin-left: -100px;
+    margin-top: 17px;
+    transition: all 1.5s ease-in-out;
+    opacity: 0;
+  }
+
+
+.texts > p {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin-top: 5px;
+    transition: all 1.1s ease-in-out;
+    opacity: 0;
+}
+.texts > p > span{
+    font-size: 17px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    left: -15px;
+    top: -10px;
+}
+
+
+
+.texts > p:nth-child(1){
+    width: 554px;
+    margin-left: 540px;
+    margin-top: 86px;
+}
+.texts > p:nth-child(2){
+    width: 760px;
+    margin-left: 620px;
+    margin-top: 227px;
+}
+.texts > p:nth-child(3){
+    width: 878px;
+    margin-left: 664px;
+    margin-top: 356px;
+}
+.texts > p:nth-child(4){
+    width: 730px;
+    margin-left: 605px;
+    margin-top: 492px;
+}
+.texts > p:nth-child(5){
+    width: 855px;
+    margin-left: 447px;
+    margin-top: 621px;
+}
+
+

@@ -1,0 +1,107 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image:url(../../PlanetImg/image.png);
+    background-size: 100%  100vh;
+    /* background-position: 100px 100px; */
+    /* background-repeat: no-repeat; */
+    /* background-color: black; */
+}
+
+
+
+
+#planetImg{
+    width: 436px;
+    position: relative;
+
+    rotate: -35deg;
+
+    top: 500px;
+  left: -215px;
+    /* transition: all 2s ease-in-out; */
+}
+#PlanetPoligon{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+.texts{
+    width: 100%;
+    height: 100vh;
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    top: 0;
+}
+h1{
+    font-size: 70px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+    position: absolute;
+    letter-spacing: 3px;
+    margin-left: 1000px;
+    margin-top: 200px;
+    transition: all 2s ease-in-out;
+    opacity: 0;
+  }
+
+
+.texts > p {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    transition: all 1.1s ease-in-out;
+    opacity: 0;
+}
+.texts > p > span{
+    font-size: 17px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    left: -15px;
+}
+.texts > p:nth-child(1){
+width: 540px;
+margin-left: 50px;
+margin-top: 40px;
+}
+.texts > p:nth-child(2){
+width: 621px;
+margin-left: 800px;
+margin-top: 60px;
+}
+.texts > p:nth-child(3){
+width: 724px;
+margin-left: 269px;
+margin-top: 192px;
+}
+.texts > p:nth-child(4){
+width: 706px;
+margin-left: 51px;
+margin-top: 355px;
+}
+.texts > p:nth-child(5){
+    width: 717px;
+    margin-left: 364px;
+    margin-top: 486px;
+}
+.texts > p:nth-child(6){
+width: 703px;
+margin-left: 33px;
+margin-top: 594px;
+}
+
+

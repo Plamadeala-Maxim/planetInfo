@@ -1,0 +1,129 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image:url(../../PlanetImg/image.png);
+    background-size: 100%  100vh;
+    /* background-position: 100px 100px; */
+    /* background-repeat: no-repeat; */
+    /* background-color: black; */
+}
+
+
+
+
+#planetImg{
+
+    position: relative;
+
+    /* transition: all 0.1s ease-in-out; */
+    width: 30px;
+    top: 30px;
+    left: 48px;
+    rotate:100deg;
+}
+#PlanetPoligon{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* #bKReels {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+#bK{
+    position: absolute;
+    width: 2400px;
+    height: 1300px;
+    left: -475px;
+    top: -288px;
+    transition: all 3s ease-in-out;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.texts{
+    width: 100%;
+    height: 100vh;
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    top: 0;
+}
+h1{
+    font-size: 70px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+    position: absolute;
+    letter-spacing: 3px;
+    margin-top: 471px;
+    margin-left: 530px; 
+    transition: all 1.5s ease-in-out;
+    opacity: 0;
+  }
+
+
+.texts > p {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin-top: 5px;
+    transition: all 1.1s ease-in-out;
+    opacity: 0;
+}
+.texts > p > span{
+    font-size: 17px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    left: -15px;
+    top: -10px;
+}
+
+
+
+.texts > p:nth-child(1){
+    width: 890px;
+    margin-left: 46px;
+    margin-top: 178px;
+}
+.texts > p:nth-child(2){
+    width: 702px;
+    margin-left: 411px;
+    margin-top: 57px;
+}
+.texts > p:nth-child(3){
+    width: 733px;
+    margin-left: 53px;
+    margin-top: 425px;
+}
+.texts > p:nth-child(4){
+    width: 490px;
+    margin-left: 595px;
+    margin-top: 316px;
+}
+.texts > p:nth-child(5){
+    width: 439px;
+    margin-left: 1086px;
+    margin-top: 528px;
+}
+.texts > p:nth-child(6){
+    width: 970px;
+    margin-left: 36px;
+    margin-top: 601px;
+}
+
+

@@ -1,0 +1,222 @@
+body{
+    background-image:url(PlanetImg/image.png);
+    background-size: 100%  100vh;
+
+    /* background-size: 1440px; */
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#solarSistem{
+    display: flex;
+    /* justify-content: flex-start; */
+
+}
+#allPlanets{
+    /* width: 100vw;
+height: 95vh; */
+margin-left: -240px;
+}
+#allPlanets > img{
+    position: absolute;
+}
+
+#allPlanets > img:hover{
+transition: all 1s ease-in-out;
+rotate: -10deg;
+}
+
+#spinMeRightRound{
+
+    width: 1000px; 
+    height: 680px;
+    overflow: hidden;
+    margin-left: -700px;
+    /* margin-top: 30px; */
+display: flex;
+justify-content: flex-end;
+align-items: center;
+transition: all 2s ease-in-out;
+
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+#sun{
+    animation: spin 80s linear infinite;
+    position: relative;
+    width: 600px; 
+    height: 600px;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+#sun:hover{
+    /* margin-top: -15px; */
+    width: 650px; 
+    height: 650px;
+transition: all 0.8s ease-in-out !important;
+}
+
+#sunTexts{
+    color: rgba(101, 101, 101, 1);
+    font-size: 70px;
+    font-family: cursive;
+    
+    margin-top: -580px;
+    margin-left: 330px;
+
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+#sunTexts > p{
+width: 100%;
+height: 31px;
+transform: translateX(-100%);
+}
+#sunP{
+color: yellow;
+}
+#lightP{
+color: white;
+}
+#starP{
+color: blue;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+#yeap{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: -600px;
+    width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    width: 0;
+    /* animation: typing 0.5s steps(20, end); */
+    transition: all 1s ease-in-out;
+
+}
+#couse{
+    color: white;
+    font-family: sans-serif;
+    font-size: 38px;
+    margin-top: 20px;
+    width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    width: 0;
+    transition: all 1s ease-in-out;
+}
+
+
+@keyframes typing {
+    0%{
+        width: 0;
+}
+    100%{
+        width: 500px;
+    }
+}
+@keyframes unTyping {
+    from{
+        width: 500px;
+}
+    to{
+        width: 0;
+    }
+}
+
+
+
+
+
+#mercury{
+    margin-left:207px;
+    margin-top: 594px;
+    width: 80px;
+    transition: all 1s ease-in-out;
+
+}
+#venus{
+    margin-left: 320px;
+    margin-top: 70px;
+    width: 100px;
+    transition: all 1.2s ease-in-out;
+
+}
+#earth{
+    margin-left: 446px;
+    margin-top: 395px;
+    width: 112px;
+    transition: all 2s ease-in-out;
+
+}
+#moon{
+    margin-left: 557px;
+    margin-top: 386px;
+    width: 32px;
+    transition: all 2s ease-in-out;
+
+}
+#mars{
+    margin-left: 720px;
+    margin-top: 520px;
+    width: 78px;
+    transition: all 2.3s ease-in-out;
+
+}
+#jupiter{
+    margin-left: 631px;
+    margin-top: -1px;
+    width: 290px;
+    transition: all 2.8s ease-in-out;
+
+}
+#saturn{
+    margin-left: 960px;
+    margin-top: 275px;
+    width: 249px;
+    transition: all 3s ease-in-out;
+
+}
+#uran{
+    margin-left: 1211px;
+    margin-top: 556px;
+    width: 100px;
+    transition: all 3.5s ease-in-out;
+
+}
+#neptune{
+    margin-left: 1258px;
+    margin-top: 73px;
+    width: 100px;
+    transition: all 3.5s ease-in-out;
+
+}
+
